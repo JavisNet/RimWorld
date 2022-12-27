@@ -1,0 +1,178 @@
+﻿	<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<SongDef>
+		<clipPath>Music/Lovely_Day</clipPath> <!--1-->
+        <volume>0.8</volume>
+		<allowedTimeOfDay>Day</allowedTimeOfDay>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/Stay_Strong</clipPath> <!--2-->
+        <volume>0.8</volume>
+	</SongDef> 
+<SongDef>
+		<clipPath>Music/Long_Way_Home</clipPath> <!--3-->
+        <volume>0.8</volume>
+	</SongDef>  
+<SongDef>
+		<clipPath>Music/Never_Forgotten</clipPath> <!--4-->
+        <volume>0.8</volume>
+	</SongDef> 
+<SongDef>
+		<clipPath>Music/Rise</clipPath> <!--5-->
+        <volume>0.8</volume>
+		<allowedTimeOfDay>Day</allowedTimeOfDay>
+	</SongDef>  
+<SongDef>
+		<clipPath>Music/Spacekattommy</clipPath> <!--6-->
+        <volume>0.8</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/Far_Away</clipPath> <!--7-->
+        <volume>0.8</volume>
+	</SongDef>   
+<SongDef>
+		<clipPath>Music/8_Giorno_Theme</clipPath> <!--8-->
+		<volume>1.2</volume>
+		<tense>true</tense>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/Tough_Life</clipPath> <!--9-->
+		<volume>0.8</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/One_Can_Dream_to_Fly</clipPath> <!--10-->
+		<volume>0.7</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/Alive</clipPath> <!--11-->
+		<volume>0.8</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/12_MGR_IT</clipPath> <!--12-->
+		<volume>1.1</volume>
+		<tense>true</tense>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/Trust_Me</clipPath> <!--13-->
+		<volume>0.8</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/Move</clipPath> <!--14-->
+		<volume>0.8</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/Carry_On</clipPath> <!--15-->
+		<volume>0.8</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/Rimmas</clipPath> <!--16-->
+		<volume>0.8</volume>
+		<commonality>2.0</commonality>
+		<allowedSeasons>
+			<li>Winter</li>
+		</allowedSeasons>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/Serene_Night</clipPath> <!--17-->
+		<volume>0.8</volume>
+		<allowedTimeOfDay>Night</allowedTimeOfDay>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/Fair_Glade</clipPath> <!--18-->
+		<volume>0.8</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/Lone_Hunter</clipPath> <!--19-->
+		<volume>0.8</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/Back_to_Work</clipPath> <!--20-->
+		<volume>0.9</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/21_Prototype_Like_GOD</clipPath> <!--21-->
+		<volume>0.7</volume>
+		<tense>true</tense>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/Blue</clipPath> <!--22-->
+		<volume>0.8</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/23_SWRC_RV_Alpha</clipPath> <!--23-->
+		<volume>0.8</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/24_NCS_Cyberpunk</clipPath> <!--24-->
+		<volume>1.2</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/Strange_Feeling</clipPath> <!--25-->
+		<volume>0.9</volume>
+		<allowedTimeOfDay>Night</allowedTimeOfDay>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/26_Far_Cry_Tiger</clipPath> <!--26-->
+		<volume>0.8</volume>
+		<allowedTimeOfDay>Day</allowedTimeOfDay>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/United</clipPath> <!--27-->
+		<volume>0.8</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/28_Violet_Vape</clipPath> <!--28-->
+		<volume>0.8</volume>
+		<allowedTimeOfDay>Day</allowedTimeOfDay>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/Legacy</clipPath> <!--29-->
+		<volume>0.8</volume>
+		<tense>true</tense>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/On_the_Road</clipPath> <!--30-->
+		<volume>0.8</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/The_Fallen</clipPath> <!--31-->
+		<allowedTimeOfDay>Night</allowedTimeOfDay>
+		<volume>1.0</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/32_The_Escapist_2_Light_off</clipPath> <!--32-->
+		<volume>0.8</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/Rustic_Ranching</clipPath> <!--33-->
+		<volume>0.8</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/Back_in_the_Saddle</clipPath> <!--34-->
+		<tense>true</tense>
+		<volume>0.8</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/35_MGR_Rules_of_Nature</clipPath> <!--35-->
+		<tense>true</tense>
+		<volume>1.1</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/Cruel_World</clipPath> <!--36-->
+		<volume>0.8</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/We_Will</clipPath> <!--37-->
+		<volume>0.8</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/Triumph</clipPath> <!--38-->
+		<volume>0.8</volume>
+		<tense>true</tense>
+	</SongDef>
+<SongDef>
+		<clipPath>Music/Valiant</clipPath> <!--39-->
+		<volume>0.8</volume>
+	</SongDef>
+</Defs>
+

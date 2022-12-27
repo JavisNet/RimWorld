@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="MakeableDrugPillBase">
+    <defName>IMBA</defName>
+    <label>IMBA</label>
+    <description>Imba Energy</description>
+    <descriptionHyperlinks>
+      <HediffDef>IMBAHigh</HediffDef>
+      <HediffDef>IMBATolerance</HediffDef>
+      <HediffDef>IMBAAddiction</HediffDef>
+      <HediffDef>ChemicalDamageSevere</HediffDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>Things/Item/Drug/IMBA</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>320</WorkToMake>
+      <MarketValue>18</MarketValue>
+      <Mass>0.05</Mass>
+	  <DeteriorationRate>6</DeteriorationRate>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <foodType>Fluid, Processed</foodType>
+	  <joyKind>Chemical</joyKind>
+      <joy>0.30</joy>
+	  <baseIngestTicks>210</baseIngestTicks>
+      <nurseable>true</nurseable>
+      <drugCategory>Social</drugCategory>
+	  <ingestSound>Ingest_Drink</ingestSound>
+	  <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <ingestCommandString>Take a sip {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>IMBAHigh</hediffDef>
+          <severity>0.75</severity>
+          <toleranceChemical>IMBA</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_OffsetNeed">
+          <need>Joy</need>
+          <offset>0.3</offset>
+          <toleranceChemical>IMBA</toleranceChemical>
+        </li>
+		<li Class="IngestionOutcomeDoer_OffsetNeed">
+          <need>Rest</need>
+          <offset>0.7</offset>
+          <toleranceChemical>IMBA</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>IMBATolerance</hediffDef>
+          <severity>0.03</severity>
+          <divideByBodySize>true</divideByBodySize>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <researchPrerequisite>IMBAProduction</researchPrerequisite>
+      <recipeUsers>
+        <li>ElectricStove</li>
+        <li>FueledStove</li>
+      </recipeUsers>
+	  <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+	  <workSkill>Cooking</workSkill>
+    </recipeMaker>
+    <costList>
+      <PsychoidLeaves>4</PsychoidLeaves>
+	  <RawBerries>10</RawBerries>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <chemical>IMBA</chemical>
+        <addictiveness>0.02</addictiveness>
+        <minToleranceToAddict>0.10</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.15</existingAddictionSeverityOffset>
+        <needLevelOffset>0.9</needLevelOffset>
+        <listOrder>110</listOrder>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <HediffDef>
+    <defName>IMBAHigh</defName>
+    <label>High on IMBA</label>
+    <labelNoun>a IMBA high</labelNoun>
+    <description>Energizes and invigorates.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-2.5</severityPerDay>
+		<showHoursToRecover>true</showHoursToRecover>
+      </li>
+    </comps>
+      <stages>
+        <li>
+		  <painFactor>0.95</painFactor>
+          <restFallFactor>0.8</restFallFactor>
+          <capMods>
+            <li>
+				<capacity>Moving</capacity>
+				<offset>0.1</offset>
+			</li>
+			<li>
+				<capacity>BloodPumping</capacity>
+				<offset>0.1</offset>
+			</li>
+			<li>
+				<capacity>Sight</capacity>
+				<offset>0.1</offset>
+			</li>
+          </capMods>
+          <statOffsets>
+            <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+          </statOffsets>
+		  <hediffGivers>
+            <li Class="HediffGiver_Random">
+              <hediff>HeartAttack</hediff>
+              <mtbDays>60</mtbDays>
+              <partsToAffect>
+                <li>Heart</li>
+              </partsToAffect>
+            </li>
+          </hediffGivers>
+        </li>
+      </stages>
+  </HediffDef>
+  
+  <ThoughtDef>
+    <defName>IMBAHigh</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>IMBAHigh</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label></label>
+        <description>+10 to the reaction!</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- IMBA addiction -->
+  
+ <ChemicalDef>
+    <defName>IMBA</defName>
+    <label>IMBA</label>
+    <addictionHediff>IMBAAddiction</addictionHediff>
+    <toleranceHediff>IMBATolerance</toleranceHediff>
+    <onGeneratedAddictedToleranceChance>0.8</onGeneratedAddictedToleranceChance>
+  </ChemicalDef>
+  
+  <NeedDef ParentName="DrugAddictionNeedBase">
+    <defName>Chemical_IMBA</defName>
+    <needClass>Need_Chemical</needClass>
+    <label>IMBA</label>
+    <description>Because of their dependence on IBMA, this person needs to take the drug regularly to avoid withdrawal symptoms.</description>
+    <fallPerDay>0.333</fallPerDay>
+	<listPriority>40</listPriority>
+  </NeedDef>
+
+  <HediffDef ParentName="DrugToleranceBase">
+    <defName>IMBATolerance</defName>
+    <label>Tolerance to IMBA</label>
+    <description>Increased resistance to IMBE. The stricter this tolerance, the more IMBA is required to get the same effect.</description>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.4</severityPerDay>
+      </li>
+      <li Class="HediffCompProperties_DrugEffectFactor">
+        <chemical>IMBA</chemical>
+      </li>
+    </comps>
+    <hediffGivers>
+      <li Class="HediffGiver_RandomDrugEffect">
+        <hediff>ChemicalDamageModerate</hediff>
+        <minSeverity>0.20</minSeverity>
+        <baseMtbDays>80</baseMtbDays>
+        <partsToAffect>
+          <li>Heart</li>
+        </partsToAffect>
+      </li>
+    </hediffGivers>
+  </HediffDef>
+
+  <HediffDef ParentName="AddictionBase">
+    <defName>IMBAAddiction</defName>
+    <label>IMBA addiction</label>
+    <description>Chemical dependence on IMBA. The long-term presence of IMBA has caused neurological adaptations at the cellular level, so the brain can no longer function normally without the drug.
+Without regular doses of IMBA, withdrawal symptoms will begin. However, prolonged abstinence will force the brain to adapt to its normal state, getting rid of addiction..</description>
+    <hediffClass>Hediff_Addiction</hediffClass>
+    <causesNeed>Chemical_IMBA</causesNeed>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.04</severityPerDay>
+		<showDaysToRecover>true</showDaysToRecover>
+      </li>
+    </comps>
+    <stages>
+      <li>
+      </li>
+      <li>
+        <label>breaking</label>
+        <painFactor>2</painFactor>
+        <restFallFactorOffset>0.3</restFallFactorOffset>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.10</offset>
+          </li>
+          <li>
+            <capacity>BloodPumping</capacity>
+            <offset>-0.30</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.20</offset>
+          </li>
+		   <li>
+              <capacity>Sight</capacity>
+              <offset>-0.10</offset>
+            </li>
+        </capMods>
+        <mentalStateGivers>
+          <li>
+            <mentalState>Binging_DrugExtreme</mentalState>
+            <mtbDays>40</mtbDays>
+          </li>
+          <li>
+            <mentalState>Wander_Psychotic</mentalState>
+            <mtbDays>3</mtbDays>
+          </li>
+        </mentalStateGivers>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <ThoughtDef>
+    <defName>IMBAWithdrawal</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>IMBAAddiction</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <visible>false</visible>
+      </li>
+      <li>
+        <label>IMBO withdrawal</label>
+        <description>I need more Imba!</description>
+        <baseMoodEffect>-12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+</Defs>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Cobra.label>cobra</Cobra.label>
+  <Cobra.labelPlural>cobras</Cobra.labelPlural>
+  <Cobra.lifeStages.0.label>cobra</Cobra.lifeStages.0.label>
+  <Cobra.lifeStages.0.labelPlural>cobra</Cobra.lifeStages.0.labelPlural>
+  <Cobra.lifeStages.0.labelMale>male cobra</Cobra.lifeStages.0.labelMale>
+  <Cobra.lifeStages.0.labelMalePlural>male cobras</Cobra.lifeStages.0.labelMalePlural>
+  <Cobra.lifeStages.0.labelFemale>female cobra</Cobra.lifeStages.0.labelFemale>
+  <Cobra.lifeStages.0.labelFemalePlural>female cobras</Cobra.lifeStages.0.labelFemalePlural>
+  <Cobra.lifeStages.1.label>cobra</Cobra.lifeStages.1.label>
+  <Cobra.lifeStages.1.labelPlural>cobra</Cobra.lifeStages.1.labelPlural>
+  <Cobra.lifeStages.1.labelMale>male cobra</Cobra.lifeStages.1.labelMale>
+  <Cobra.lifeStages.1.labelMalePlural>male cobras</Cobra.lifeStages.1.labelMalePlural>
+  <Cobra.lifeStages.1.labelFemale>female cobra</Cobra.lifeStages.1.labelFemale>
+  <Cobra.lifeStages.1.labelFemalePlural>female cobras</Cobra.lifeStages.1.labelFemalePlural>
+  <Cobra.lifeStages.2.label>cobra</Cobra.lifeStages.2.label>
+  <Cobra.lifeStages.2.labelPlural>cobra</Cobra.lifeStages.2.labelPlural>
+  <Cobra.lifeStages.2.labelMale>male cobra</Cobra.lifeStages.2.labelMale>
+  <Cobra.lifeStages.2.labelMalePlural>male cobras</Cobra.lifeStages.2.labelMalePlural>
+  <Cobra.lifeStages.2.labelFemale>female cobra</Cobra.lifeStages.2.labelFemale>
+  <Cobra.lifeStages.2.labelFemalePlural>female cobras</Cobra.lifeStages.2.labelFemalePlural>
+  <Cobra.labelMale>male cobra</Cobra.labelMale>
+  <Cobra.labelMalePlural>male cobras</Cobra.labelMalePlural>
+  <Cobra.labelFemale>female cobra</Cobra.labelFemale>
+  <Cobra.labelFemalePlural>female cobras</Cobra.labelFemalePlural>
+
+
+</LanguageData>

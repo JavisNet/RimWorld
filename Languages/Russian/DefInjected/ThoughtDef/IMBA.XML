@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <IMBAHigh.stages.0.label>ИМБАлдёж</IMBAHigh.stages.0.label>
+  <IMBAHigh.stages.0.description>+10 к реакции!</IMBAHigh.stages.0.description>
+
+
+  <!-- IMBA addiction -->
+
+  <IMBAWithdrawal.stages.1.label>Нехватка ИМБЫ</IMBAWithdrawal.stages.1.label>
+  <IMBAWithdrawal.stages.1.description>Мне нужно больше ИМБЫ!</IMBAWithdrawal.stages.1.description>
+
+
+</LanguageData>

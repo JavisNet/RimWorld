@@ -1,0 +1,44 @@
+	<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<IdeoIconDef>
+		<defName>Ideo_J-Mod_Assassin's</defName>
+		<iconPath>UI/Icons/Ideo_Assassin's</iconPath>
+	</IdeoIconDef>
+	
+	<IdeoIconDef>
+		<defName>Ideo_J-Mod_Primogem</defName>
+		<iconPath>UI/Icons/Ideo_Primogem</iconPath>
+	</IdeoIconDef>
+	
+	<IdeoIconDef>
+		<defName>Ideo_J-Mod_Cube</defName>
+		<iconPath>UI/Icons/Ideo_Cube</iconPath>
+	</IdeoIconDef>
+		
+	<IdeoIconDef>
+		<defName>Ideo_J-Mod_Mask</defName>
+		<iconPath>UI/Icons/Ideo_Mask</iconPath>
+	</IdeoIconDef>
+	
+	<IdeoIconDef>
+		<defName>Ideo_J-Mod_Cover</defName>
+		<iconPath>UI/Icons/Ideo_Cover</iconPath>
+	</IdeoIconDef>
+	
+	<IdeoIconDef>
+		<defName>Ideo_J-Mod_Dorothy</defName>
+		<iconPath>UI/Icons/Ideo_Dorothy</iconPath>
+	</IdeoIconDef>
+		
+	<IdeoIconDef>
+		<defName>Ideo_J-Mod_Murka</defName>
+		<iconPath>UI/Icons/Ideo_Murka</iconPath>
+	</IdeoIconDef>
+	
+	<IdeoIconDef>
+		<defName>Ideo_J-Mod_BanditS</defName>
+		<iconPath>UI/Icons/Ideo_Stalker_Bandit</iconPath>
+	</IdeoIconDef>
+	
+</Defs>

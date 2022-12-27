@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <IMBA.label>ИМБА</IMBA.label>
+  <IMBA.description>Имба Энержи, профессиональный напиток для Гей'меров.</IMBA.description>
+  <IMBA.ingestible.ingestCommandString>Сделать глоток {0}</IMBA.ingestible.ingestCommandString>
+  <IMBA.ingestible.ingestReportString>Пьёт {0}.</IMBA.ingestible.ingestReportString>
+
+
+</LanguageData>

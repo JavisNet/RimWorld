@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>  
+  <SoundDef>
+    <defName>Pawn_Human_Pain</defName>
+    <context>MapOnly</context>
+    <eventNames/>
+    <maxVoices>20</maxVoices>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawn/Human/Pain</clipPath>
+          </li>
+        </grains>
+		<volumeRange>
+          <min>60</min>
+          <max>70</max>
+		</volumeRange>      
+		<pitchRange>
+          <min>0.95</min>
+          <max>1.2</max>
+        </pitchRange>
+	   </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>Pawn_Human_Death</defName>  
+    <context>MapOnly</context>
+    <eventNames/> 
+	<maxVoices>20</maxVoices>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawn/Human/Death</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>90</min>
+          <max>100</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.75</min>
+          <max>2</max>
+        </pitchRange>
+	   </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

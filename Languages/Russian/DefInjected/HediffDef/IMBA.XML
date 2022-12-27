@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <IMBAHigh.label>Под кайфом от ИМБЫ</IMBAHigh.label>
+  <IMBAHigh.description>Бодрит и бодрит.</IMBAHigh.description>
+  <IMBAHigh.labelNoun>a IMBA high</IMBAHigh.labelNoun>
+
+
+  <!-- IMBA addiction -->
+
+  <IMBATolerance.label>Толерантность к ИМБЕ</IMBATolerance.label>
+  <IMBATolerance.description>Повышенная устойчивость к ИМБЕ. Чем строже этот допуск, тем больше требуется ИМБЫ для получения того же эффекта.</IMBATolerance.description>
+
+  <IMBAAddiction.label>Зависимость от имбы</IMBAAddiction.label>
+  <IMBAAddiction.description>Химическая зависимость от ИМБЫ. Длительное присутствие ИМБЫ вызвало неврологические адаптации на клеточном уровне, поэтому мозг больше не может нормально функционировать без препарата.
+Без регулярных доз ИМБЫ начнутся симптомы отмены. Однако длительное воздержание заставит мозг адаптироваться к нормальному состоянию, избавившись от зависимости.</IMBAAddiction.description>
+  <IMBAAddiction.stages.1.label>ломка</IMBAAddiction.stages.1.label>
+
+
+</LanguageData>
