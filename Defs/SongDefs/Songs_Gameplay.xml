@@ -1,25 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 <SongDef>
-		<clipPath>Music/Lovely_Day</clipPath> <!--1-->
-        <volume>0.7</volume>
+		<clipPath>Music/1_Nightcore_Outta_My_Head</clipPath> <!--1-->
+        <volume>1.0</volume>
 		<allowedTimeOfDay>Day</allowedTimeOfDay>
 	</SongDef>
 <SongDef>
-		<clipPath>Music/Stay_Strong</clipPath> <!--2-->
-        <volume>0.7</volume>
+		<clipPath>Music/2_Nightcore_Talking_To_The_Moon</clipPath> <!--2-->
+        <volume>0.9</volume>
 	</SongDef> 
 <SongDef>
-		<clipPath>Music/Long_Way_Home</clipPath> <!--3-->
-        <volume>0.7</volume>
+		<clipPath>Music/3_Nightcore_Scared</clipPath> <!--3-->
+        <volume>0.8</volume>
 	</SongDef>  
 <SongDef>
-		<clipPath>Music/Never_Forgotten</clipPath> <!--4-->
-        <volume>0.7</volume>
+		<clipPath>Music/4_Nightcore_Toxic</clipPath> <!--4-->
+        <volume>0.9</volume>
 	</SongDef> 
 <SongDef>
-		<clipPath>Music/Rise</clipPath> <!--5-->
-        <volume>0.7</volume>
+		<clipPath>Music/5_Nightcore_My_Soul_Is_Your_Soul</clipPath> <!--5-->
+        <volume>0.8</volume>
 		<allowedTimeOfDay>Day</allowedTimeOfDay>
 	</SongDef>  
 <SongDef>
