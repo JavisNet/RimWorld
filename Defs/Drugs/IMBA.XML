@@ -26,7 +26,7 @@
     <ingestible>
       <foodType>Fluid, Processed</foodType>
 	  <joyKind>Chemical</joyKind>
-      <joy>0.30</joy>
+      <joy>0.35</joy>
 	  <baseIngestTicks>210</baseIngestTicks>
       <nurseable>true</nurseable>
       <drugCategory>Social</drugCategory>

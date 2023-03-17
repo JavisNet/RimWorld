@@ -23,8 +23,8 @@
 		<allowedTimeOfDay>Day</allowedTimeOfDay>
 	</SongDef>  
 <SongDef>
-		<clipPath>Music/Spacekattommy</clipPath> <!--6-->
-        <volume>0.7</volume>
+		<clipPath>Music/6_SHADXWBXRN_KNIGHT</clipPath> <!--6-->
+        <volume>0.8</volume>
 	</SongDef>
 <SongDef>
 		<clipPath>Music/Far_Away</clipPath> <!--7-->
@@ -40,12 +40,12 @@
 		<volume>0.7</volume>
 	</SongDef>
 <SongDef>
-		<clipPath>Music/One_Can_Dream_to_Fly</clipPath> <!--10-->
-		<volume>0.6</volume>
+		<clipPath>Music/10_SS_Countdown</clipPath> <!--10-->
+		<volume>0.7</volume>
 	</SongDef>
 <SongDef>
 		<clipPath>Music/11_Monument</clipPath> <!--11-->
-		<volume>1.1</volume>
+		<volume>0.85</volume>
 	</SongDef>
 <SongDef>
 		<clipPath>Music/12_MGR_IT</clipPath> <!--12-->
@@ -90,7 +90,7 @@
 		<volume>0.8</volume>
 	</SongDef>
 <SongDef>
-		<clipPath>Music/21_Prototype_Like_GOD</clipPath> <!--21-->
+		<clipPath>Music/21_SS_Syndicate_theme</clipPath> <!--21-->
 		<volume>0.9</volume>
 		<tense>true</tense>
 	</SongDef>
@@ -131,8 +131,8 @@
 		<tense>true</tense>
 	</SongDef>
 <SongDef>
-		<clipPath>Music/30_SHADXWBXRN_KNIGHT</clipPath> <!--30-->
-		<volume>1.1</volume>
+		<clipPath>Music/30_SS_Code _Epsilon</clipPath> <!--30-->
+		<volume>0.8</volume>
 	</SongDef>
 <SongDef>
 		<clipPath>Music/The_Fallen</clipPath> <!--31-->
