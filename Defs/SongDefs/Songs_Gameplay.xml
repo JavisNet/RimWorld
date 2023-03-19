@@ -2,29 +2,29 @@
 <Defs>
 <SongDef>
 		<clipPath>Music/1_Nightcore_Outta_My_Head</clipPath> <!--1-->
-        <volume>1.0</volume>
+        <volume>0.7</volume>
 		<allowedTimeOfDay>Day</allowedTimeOfDay>
 	</SongDef>
 <SongDef>
 		<clipPath>Music/2_Nightcore_Talking_To_The_Moon</clipPath> <!--2-->
-        <volume>0.9</volume>
+        <volume>0.7</volume>
 	</SongDef> 
 <SongDef>
 		<clipPath>Music/3_Nightcore_Scared</clipPath> <!--3-->
-        <volume>0.8</volume>
+        <volume>0.7</volume>
 	</SongDef>  
 <SongDef>
 		<clipPath>Music/4_Nightcore_Toxic</clipPath> <!--4-->
-        <volume>0.9</volume>
+        <volume>0.7</volume>
 	</SongDef> 
 <SongDef>
 		<clipPath>Music/5_Nightcore_My_Soul_Is_Your_Soul</clipPath> <!--5-->
-        <volume>0.8</volume>
+        <volume>0.7</volume>
 		<allowedTimeOfDay>Day</allowedTimeOfDay>
 	</SongDef>  
 <SongDef>
 		<clipPath>Music/6_SHADXWBXRN_KNIGHT</clipPath> <!--6-->
-        <volume>0.8</volume>
+        <volume>0.7</volume>
 	</SongDef>
 <SongDef>
 		<clipPath>Music/Far_Away</clipPath> <!--7-->
@@ -41,7 +41,7 @@
 	</SongDef>
 <SongDef>
 		<clipPath>Music/10_SS_Countdown</clipPath> <!--10-->
-		<volume>0.7</volume>
+		<volume>1.0</volume>
 	</SongDef>
 <SongDef>
 		<clipPath>Music/11_Monument</clipPath> <!--11-->
@@ -54,7 +54,7 @@
 	</SongDef>
 <SongDef>
 		<clipPath>Music/13_Mareux_The_Perfect_Girl</clipPath> <!--13-->
-		<volume>0.7</volume>
+		<volume>0.8</volume>
 	</SongDef>
 <SongDef>
 		<clipPath>Music/Move</clipPath> <!--14-->
@@ -91,7 +91,7 @@
 	</SongDef>
 <SongDef>
 		<clipPath>Music/21_SS_Syndicate_theme</clipPath> <!--21-->
-		<volume>0.9</volume>
+		<volume>1.0</volume>
 		<tense>true</tense>
 	</SongDef>
 <SongDef>
@@ -132,7 +132,7 @@
 	</SongDef>
 <SongDef>
 		<clipPath>Music/30_SS_Code _Epsilon</clipPath> <!--30-->
-		<volume>0.8</volume>
+		<volume>1.2</volume>
 	</SongDef>
 <SongDef>
 		<clipPath>Music/The_Fallen</clipPath> <!--31-->
