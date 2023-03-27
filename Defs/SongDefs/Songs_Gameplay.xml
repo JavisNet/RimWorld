@@ -2,29 +2,29 @@
 <Defs>
 <SongDef>
 		<clipPath>Music/1_Nightcore_Outta_My_Head</clipPath> <!--1-->
-        <volume>0.7</volume>
+        <volume>0.5</volume>
 		<allowedTimeOfDay>Day</allowedTimeOfDay>
 	</SongDef>
 <SongDef>
 		<clipPath>Music/2_Nightcore_Talking_To_The_Moon</clipPath> <!--2-->
-        <volume>0.7</volume>
+        <volume>0.5</volume>
 	</SongDef> 
 <SongDef>
 		<clipPath>Music/3_Nightcore_Scared</clipPath> <!--3-->
-        <volume>0.7</volume>
+        <volume>0.5</volume>
 	</SongDef>  
 <SongDef>
 		<clipPath>Music/4_Nightcore_Toxic</clipPath> <!--4-->
-        <volume>0.7</volume>
+        <volume>0.5</volume>
 	</SongDef> 
 <SongDef>
 		<clipPath>Music/5_Nightcore_My_Soul_Is_Your_Soul</clipPath> <!--5-->
-        <volume>0.7</volume>
+        <volume>0.5</volume>
 		<allowedTimeOfDay>Day</allowedTimeOfDay>
 	</SongDef>  
 <SongDef>
 		<clipPath>Music/6_SHADXWBXRN_KNIGHT</clipPath> <!--6-->
-        <volume>0.7</volume>
+        <volume>0.6</volume>
 	</SongDef>
 <SongDef>
 		<clipPath>Music/Far_Away</clipPath> <!--7-->
@@ -73,12 +73,12 @@
 		</allowedSeasons>
 	</SongDef>
 <SongDef>
-		<clipPath>Music/Serene_Night</clipPath> <!--17-->
+		<clipPath>Music/17_PZ_Zombie_Threat</clipPath> <!--17-->
 		<volume>0.7</volume>
 		<allowedTimeOfDay>Night</allowedTimeOfDay>
 	</SongDef>
 <SongDef>
-		<clipPath>Music/Fair_Glade</clipPath> <!--18-->
+		<clipPath>Music/18_PZ_What_Was_Lost</clipPath> <!--18-->
 		<volume>0.7</volume>
 	</SongDef>
 <SongDef>
@@ -99,7 +99,7 @@
 		<volume>1.2</volume>
 	</SongDef>
 <SongDef>
-		<clipPath>Music/23_SWRC_RV_Alpha</clipPath> <!--23-->
+		<clipPath>Music/23_SK_UR_FINAL_MESSAGE_FEAT</clipPath> <!--23-->
 		<volume>0.7</volume>
 	</SongDef>
 <SongDef>
