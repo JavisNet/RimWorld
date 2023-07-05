@@ -1,5 +1,2 @@
-# RimWorld-J-Mod
-# RimWorld-J-Mod
-# Version 1.0.2.3
-# + Изменение громкости
-# + Новая музыка 
+# Рофл мод на основе мода [Бедлама](https://www.youtube.com/@BeD14m/videos) и [P-Music](https://steamcommunity.com/sharedfiles/filedetails/?id=725130005&searchtext=P-Music)
+# [WIKI](https://github.com/JavisNet/RimWorld/issues/1)
